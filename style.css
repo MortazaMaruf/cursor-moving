@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+html,body{
+    height:100%;
+    background: black;
+    width:100%;
+    color:white;
+}
+#maindiv{
+
+     height:100%;
+     width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.cursor{
+    height:15px;
+    width:15px;
+    background:white;
+    border-radius:50px;
+    mix-blend-mode:difference;
+    position:absolute;
+    transition:all linear 0.01s;
+}
+h1{
+    text-align:center;
+    font-size:20vw;
+    word-break: 1px;
+
+}
